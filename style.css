@@ -3,8 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-.navbar-expand-lg{
-  flex-grow: 0.5;
+.navbar-collapse {
+  flex-grow: 0.5 !important;
 }
 .hero {
   width: 100%;
@@ -17,9 +17,11 @@
 }
 
 .about-sec{
-  background-image: url("./image/mbr-2.jpg");
+  background-image: url("./image/cards.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 600px;
+  height: 400px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -27,10 +29,10 @@
   align-items: center;
 }
 .who{
-  margin-top: 450px;
+  margin-top: 150px;
   color: #71d80b;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 70px;
   display: flex;
   align-items: center;
   column-gap: 5px;
