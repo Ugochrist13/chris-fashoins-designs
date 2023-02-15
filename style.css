@@ -366,17 +366,17 @@
   display: block;
   margin-top: 20px;
   font-size: 18px;
-  color: blue;
+  color: #71d80b;
 }
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   padding: 10px;
   border: none;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #71d80b;
   margin-top: 10px;
   font-size: 16px;
-  color: blue;
+  color: #71d80b;
   background-color: white;
 }
 .contact-form input:focus,
@@ -388,7 +388,7 @@
   margin-top: 20px;
   padding: 10px 20px;
   border: none;
-  background-color: blue;
+  background-color: #71d80b;
   color: white;
   font-size: 16px;
   cursor: pointer;
